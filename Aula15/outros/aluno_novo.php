@@ -11,6 +11,10 @@
     
     <form action="aluno_novo_salvar.php" method="post">
         <div>
+            <span>RA</span>
+            <input type="text" name="ra" id="">
+        </div>
+        <div>
             <span>Nome do Aluno</span>
             <input type="text" name="nome" id="">
         </div>

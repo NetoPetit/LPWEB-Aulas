@@ -24,6 +24,7 @@
             <td>RA</td>
             <td>NOME</td>
             <td>CURSO</td>
+            <td>OPÇÕES</td>
         </thead>
         <tbody>
             
@@ -50,6 +51,9 @@
                             <td>" . $linha['ra'] . "</td>
                             <td>" . $linha['nome'] . "</td>
                             <td>" . $linha['curso'] . "</td>
+                            <td> 
+                                <a href='' class='btn btn-danger'>🗑️</a>
+                            </td>
                         </tr>
                     ";
                 }
