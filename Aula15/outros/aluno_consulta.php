@@ -52,7 +52,7 @@
                             <td>" . $linha['nome'] . "</td>
                             <td>" . $linha['curso'] . "</td>
                             <td> 
-                                <a href='' class='btn btn-danger'>🗑️</a>
+                                <a href='/Aula15/outros/aluno_apagar.php?ra=".$linha['ra']."' class='btn btn-danger'>🗑️</a>
                                 <a href='/Aula15/outros/aluno_alterar.php?ra=".$linha['ra']."' class='btn btn-primary'>✏️</a>
                             </td>
                         </tr>

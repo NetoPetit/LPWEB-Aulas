@@ -46,7 +46,7 @@ http://localhost/Aula15/outros/aluno_alterar.php?ra=11111
         </div>
         <div>
             <input type="submit" value="Salvar" class="btn btn-primary">
-            <a href="aluno_consulta.php" class="btn btn-secondary   ">Voltar</a>
+            <a href="aluno_consulta.php" class="btn btn-secondary">Voltar</a>
         </div>
     </form>
 </body>
